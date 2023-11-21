@@ -109,8 +109,8 @@ def fit_predict(model):
     RMSE = mean_squared_error(y_test, y_pred,squared=False)
     MAE = mean_absolute_error(y_test,y_pred)
     print('R-squared: ', r_squared)
-    print('RMSE: ', RMSE)
-    print("MAE:  ",MAE)
+    print('Root Mean Squared Error: ', RMSE)
+    print("Mean Absolute Error: ",MAE)
 
 from sklearn.linear_model import LinearRegression
 
